@@ -10,8 +10,9 @@
 }
 
 .header__scrolled {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 15px 0;
+  backdrop-filter: blur(20px);
 }
 
 .headergroup {
@@ -40,18 +41,14 @@
 
 .header a:first-of-type:active {
   transform: translateY(-3px);
-  /* background-size: 4rem;
-  background: rgba(151, 146, 255,0.5); */
-
 }
 
 
 .header a:not(:first-of-type):hover {
   background: rgba(238, 238, 238, 0.8);
-  color: #262739;
-
-  transform: translateY(-6px);
   box-shadow: 0 3rem 5rem (rgb(45, 45, 45), 0.2);
+  color: #262739;
+  transform: translateY(-6px);
 }
 
 .header a:not(:first-of-type):active {
