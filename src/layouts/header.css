@@ -3,17 +3,24 @@
   color: #EEEEEE;
   padding: 5rem 0;
   position: fixed;
+  transition: .8s cubic-bezier(0.2, 0.8, 0.2, 1);
   width: 100%;
   z-index: 100;
+
+}
+
+.header__scrolled {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 0;
 }
 
 .headergroup {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(5, auto);
+  justify-items: center;
   margin: 0 auto;
   max-width: 80rem;
-  justify-items: center;
 
 }
 
@@ -49,10 +56,9 @@
 
 .header a:not(:first-of-type):active {
   background: rgba(238, 238, 238, 0.8);
-  color: #262739;
-
-  transform: translateY(-3px);
   box-shadow: 0 1.5rem 2.5rem rgba(45, 45, 45, 1), 0.2;
+  color: #262739;
+  transform: translateY(-3px);
 }
 
 @media (max-width: 640px) {

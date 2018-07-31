@@ -7,43 +7,41 @@ const IndexPage = () => (
       <img className="hero__centerlogo" src={require('../images/hero-name2.png')}/>
       <div className="herogroup">
         <div className="herogroup-columns">
-        <h2 className="herogroup-leftcolumn">
-          <span className="herogroup--toptext">UI / UX</span>
-          <br/>
-          <span className="herogroup--bottomtext">Designer</span>
-        </h2>
-        
-        <h2 className="herogroup-rightcolumn">
-          <span className="herogroup--toptext">Full-Stack</span>
-          <br/>
-          <span className="herogroup--bottomtext">Developer</span>
-        </h2>
+          <h2 className="herogroup-leftcolumn">
+            <span className="herogroup--toptext">UI / UX</span>
+            <br/>
+            <span className="herogroup--bottomtext">Designer</span>
+          </h2>
+          
+          <h2 className="herogroup-rightcolumn">
+            <span className="herogroup--toptext">Full-Stack</span>
+            <br/>
+            <span className="herogroup--bottomtext">Developer</span>
+          </h2>
         </div>
-        <svg width="100%" height="300" viewBox="0 0 100% 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        {/*<svg width="100%" height="400" viewBox="0 0 100% 400" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill="white">
           <animate 
             repeatCount="indefinite" 
             fill="freeze" 
             attributeName="d" 
-            dur="10s" 
-            values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;
+            dur="22s" 
+            values="M0 41.6576C265 124.158 311.5 178.196 649.5 121.287C987.5 64.378 1079.5 -66.8424 1365.5 41.6576C1868.33 232.417 2160.39 108.227 2560 143.658V375.326L0 375.326V41.6576Z;
+            
+            M0 212.918C94 153.418 225.5 -44.0086 426 8.91833C626.5 61.8453 1034.41 327.208 1319.5 238.918C1665 131.918 1956.5 107.418 2560 386.918V596.363L0 596.363V212.918Z;
 
-            M0 86.3149C316 86.315 444 159.155 884 51.1554C1324 -56.8446 1320.29 34.1214 1538 70.4063C1814 116.407 2156 188.408 2560 86.315V232.317L0 232.316V86.3149Z;
+            M0 131.777C291 269.777 540 274.777 803.5 131.777C1067 -11.2229 1309.4 -43.4289 1549 62.777C1831 187.777 2291 283.277 2560 190.777V470.777L0 470.777V131.777Z;
 
-            M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z; 
+            M0 212.918C94 153.418 225.5 -44.0086 426 8.91833C626.5 61.8453 1034.41 327.208 1319.5 238.918C1665 131.918 1956.5 107.418 2560 386.918V596.363L0 596.363V212.918Z;
 
-            M0 70.0785C319.5 171.17 416 167.67 720 70.0785C1024 -27.5128 1216.33 -4.14547 1442.5 27.1699C2060 112.67 2208 107.671 2560 70.0787V216.08L0 216.08V70.0785Z;       
-
-            M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z"
+            M0 41.6576C265 124.158 311.5 178.196 649.5 121.287C987.5 64.378 1079.5 -66.8424 1365.5 41.6576C1868.33 232.417 2160.39 108.227 2560 143.658V375.326L0 375.326V41.6576Z"
           />
           </path>
-        </svg>
+        </svg>*/}
       </div>
       {/* <Link classname="hero--learnmore" to="/page-2/">Learn More</Link> */}
   </div>
 )
 
-export default IndexPage
-
-
+export default IndexPage;
 
