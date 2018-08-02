@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -30,11 +31,11 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'header header__scrolled' : 'header'}>
         <div className="headergroup">
-          <Link to="/"><img src={require('../images/DLogo.png')} width="30" height="38.4"/></Link>
-          <Link to="about-me">About Me</Link>
-          <Link to="portfolio">Work</Link>
-          <Link to="#">Blog</Link>
-          <Link to="contact">Contact</Link>
+          <a href="/"><img src={require("../images/DLogo.png")} width="30" height="38.4"/></a>
+          <a href="about">About Me</a>
+          <a href="portfolio">Work</a>
+          <a href="#">Blog</a>
+          <a href="contact">Contact</a>
         </div>
     </div>
     );
