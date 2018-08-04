@@ -32,7 +32,9 @@
   font-weight: 600;
   justify-content: flex-end;
   letter-spacing: .4rem;
-  padding-top: 1.2rem;
+  padding-top: 18rem;
+  padding-right: 8rem;
+  right: 0;
   text-transform: uppercase;
 }
 
@@ -46,17 +48,16 @@
   width: 6rem;
 }
 
-/* .heading-num {
+.heading-num {
   font-size: 4rem;
   color: #ff4d5a;
   position: relative;
-  padding-left: 6.2rem;
-  padding-right: 3.2rem;
+  padding-right: 1rem;
   font-family: 'Abril Fatface';
   line-height: 1.1;
 }
 
-.heading-num:after {
+/* .heading-num:after {
   content: '';
   width: 4.8rem;
   height: 2px;
@@ -103,7 +104,7 @@
   color: #072142;
   letter-spacing: 0.2em;
   line-height: 1.2;
-  font-family: 'futura_de';
+  font-family: 'futura', 'Lato';
 }
 
 .meta__text .small-title {
@@ -210,6 +211,9 @@
 }
 .skill-set__high {
   color: #ff4d5a;
+}
+.skill-set__med {
+  color: #A23274;
 }
 .skill-set__bar {
   width: 100%;

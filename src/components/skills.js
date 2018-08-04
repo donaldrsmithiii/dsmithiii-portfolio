@@ -4,8 +4,8 @@ import ScrollAnimation from 'react-animate-on-scroll'
 const Skills = () => (
   <div className="skill-set container">
     <div className="text">
-      <div className="text__wrap content">
-        <h2 className="heading--right">Skills</h2>
+      <div className="text__wrap">
+        <h2 className="heading--right"><span className="heading-num">2</span>Skills</h2>
       </div>
     </div>
     <div className="content content--mlarge skill-set__flex">
@@ -58,7 +58,7 @@ const Skills = () => (
         </li>
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/Javascript.svg")}/>
+            <img src={require("../images/Javascript.svg")} width="68" height="68"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">
@@ -81,7 +81,7 @@ const Skills = () => (
         </li>
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/React.svg")}/>
+            <img src={require("../images/react.svg")} width="72" height="64.4"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">
@@ -90,21 +90,21 @@ const Skills = () => (
                 <p className="skill-set__year">1YEAR</p>
               </div>
               <p className="small-title small-title--skill skill-set__high">
-                60
+                70
                 <span className="skill-set__ratio">%</span>
               </p>
             </div>
             <ScrollAnimation
-              animateIn="skill-set__bar p60 in"
+              animateIn="skill-set__bar p70 in"
               initiallyVisible={true}
             >
-              <div className="skill-set__bar p60" />
+              <div className="skill-set__bar p70" />
             </ScrollAnimation>
           </div>
         </li>
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/Redux.svg")}/>
+            <img src={require("../images/Redux.svg")} width="68" height="68"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">
@@ -135,7 +135,7 @@ const Skills = () => (
                 <h4 className="small-title small-title--skill">Node</h4>
                 <p className="skill-set__year">8MONTHS</p>
               </div>
-              <p className="small-title small-title--skill skill-set__high">
+              <p className="small-title small-title--skill skill-set__med">
                 60
                 <span className="skill-set__ratio">%</span>
               </p>
@@ -152,7 +152,7 @@ const Skills = () => (
       <ul className="skill-set__list">
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/GraphQL.svg")}/>
+            <img src={require("../images/GraphQL.svg")} width="64"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">
@@ -175,13 +175,13 @@ const Skills = () => (
         </li>
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/Golang.svg")} width="72"/>
+            <img src={require("../images/Golang.svg")} width="64" height="64"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">
               <div className="skill-set__name">
                 <h4 className="small-title small-title--skill">Golang</h4>
-                <p className="skill-set__year">2MONTH</p>
+                <p className="skill-set__year">2MONTHS</p>
               </div>
               <p className="small-title small-title--skill skill-set__low">
                 30
@@ -198,7 +198,7 @@ const Skills = () => (
         </li>
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/Sketch.svg")} width="72"/>
+            <img src={require("../images/Sketch.svg")} width="68"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">
@@ -221,7 +221,7 @@ const Skills = () => (
         </li>
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/Figma.svg")}/>
+            <img src={require("../images/figma.svg")} width="64" height="60"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">
@@ -244,7 +244,7 @@ const Skills = () => (
         </li>
         <li className="skill-set__item">
           <div className="skill-set__icon">
-            <img src={require("../images/InvisionStudio.svg")} width="72"/>
+            <img src={require("../images/invision-studio.svg")} width="66" height="66"/>
           </div>
           <div className="skill-set__detail">
             <div className="skill-set__meta">

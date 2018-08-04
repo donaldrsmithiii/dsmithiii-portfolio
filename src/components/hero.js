@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => (
   <div>
     <div className="hero">
-      <img className="hero__centerlogo" src={require('../images/hero-name2.png')}/>
+      <img className="hero__centerlogo" src={require("../images/hero_updated.svg")}/>
       <div className="herogroup">
         <div className="herogroup-columns">
           <h2 className="herogroup-leftcolumn">

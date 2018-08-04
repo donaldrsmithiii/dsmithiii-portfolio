@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => (
   <div className="about">
     <div className="about__leftcolumn">
-      <h2 className="about__title">Who Am I <span>?</span></h2>
+      <h2 className="about__title"><span className="heading-num">1</span>Who Am I <span>?</span></h2>
       <p>
         Let me tell you a little about 
         <br/>
