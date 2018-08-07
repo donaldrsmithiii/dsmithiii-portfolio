@@ -4,12 +4,15 @@
   "version": "1.0.0",
   "author": "Donald Smith III",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
     "react-animate-on-scroll": "^2.1.5",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-inview-monitor": "^2.2.0",
+    "react-mt-svg-lines": "^0.8.5"
   },
   "keywords": [
     "gatsby"

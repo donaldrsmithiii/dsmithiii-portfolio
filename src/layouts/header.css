@@ -10,8 +10,9 @@
 }
 
 .header__scrolled {
-  background-color: rgba(255,77,89,0.45);
+  background-color: rgba(2, 11, 22, 0.8);
   padding: 15px 0;
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 }
 
@@ -46,7 +47,7 @@
 .header a:not(:first-of-type):hover {
   background: rgba(238, 238, 238, 0.8);
   box-shadow: 0 3rem 5rem (rgb(45, 45, 45), 0.2);
-  color: #262739;
+  color: #020B16;
   transform: translateY(-6px);
 }
 

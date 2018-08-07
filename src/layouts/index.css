@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./about.css');
 @import url('./skills.css');
+@import url('./animate.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,700');
 
 html {
@@ -15,7 +16,6 @@ body {
   /* line-height: 1.5rem; */
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  
 }
 
 a {
@@ -25,22 +25,52 @@ a {
   text-decoration: none;
 }
 
+.scrolldown {
+  bottom: 30rem;
+  color: rgba(255, 255, 255, .8);
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  left: 40px;
+  letter-spacing: 0.3em;
+  line-height: 1;
+  position: fixed;
+  writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  z-index: 100;
+}
+
+.scrolldown:after {
+  background: rgba(255, 255, 255, .8);
+  bottom: -80px;
+  content: "";
+  height: 64px;
+  width: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+}
+
+.vis-hidden {
+  visibility: hidden;
+}
+
 .hero {
   background-color: #020B16;
   background-size: cover;
-  position: relative;
   width: 100%;
 }
 
 .hero__centerlogo {
-  display: flex;
-  height: 55rem;
-  justify-content: center;
+  display: grid;
+  height: 62rem;
+  align-items: center;
+  grid-template-columns: 1fr;
   margin: 0 auto;
-  padding: 0;
-  padding-top: 20rem;
+  padding: 30rem 0 20rem 0;
   opacity: 0;
-  width: 58rem;
+  width: 65rem;
   animation: heroAnimation;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -55,27 +85,19 @@ a {
   line-height: 5.8rem;
   margin-bottom: 5rem;
   padding-bottom: 10rem;
-  width: 100%;
   text-align: center;
-  z-index: -1;
 }
 
 .herogroup-columns {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(2, auto);
+  grid-column-gap: 8rem;
   justify-items: center;
+  margin-bottom: 5rem;
   opacity: 0;
   padding-top: 20rem;
   animation: heroAnimation 3.5s 0.6s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.herogroup-leftcolumn {
-  padding-right: 25rem;
-}
-
-.herogroup-rightcolumn {
-  padding-left: 25rem;
 }
 
 .herogroup--toptext{
@@ -84,13 +106,6 @@ a {
 .herogroup--bottomtext {
   font-weight: 100;
   font-style: italic;
-}
-
-.hero svg {
-  bottom: 0;
-  position: absolute;
-  left: 0;
-  opacity: 1;
 }
 
 @media (max-width: 640px) {

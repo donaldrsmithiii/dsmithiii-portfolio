@@ -57,48 +57,6 @@
   line-height: 1.1;
 }
 
-/* .heading-num:after {
-  content: '';
-  width: 4.8rem;
-  height: 2px;
-  background: #020b16;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-} */
-
-/* .text {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-left: 138px;
-  margin-top: 14.4rem;
-}
-
-.text__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 10%;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  max-width: 1200px;
-  width: 100%;
-  margin: auto;
-} */
-
 .small-title {
   font-size: 2.4rem;
   color: #072142;
@@ -221,8 +179,8 @@
   background: #fff;
   position: relative;
   border-radius: 10px;
-  -webkit-box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
-  box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(7, 33, 66, .1);
+  box-shadow: 0 5px 10px 0 rgba(7, 33, 66, .1);
 }
 @media screen and (max-width: 420px) {
   .skill-set__bar {
